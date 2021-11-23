@@ -8,6 +8,8 @@
 #include <ESP8266WiFi.h>
 #include "ESP8266TimerInterrupt.h"
 #include "PubSubClient.h"
+#include <DHT.h>
+#include <DHT_U.h>
 
 #include <IRremote.h>
 #include </home/renato/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src/WiFiUdp.h>
@@ -30,25 +32,39 @@ const char *mqttServer = "node02.myqtthub.com";
 
 //  WiFi
 int connectionCount = 0;
-int connectionTimeout = 20;
-int maxAttempts = 3;
+int connectionTimeout = 1000;
+int maxAttempts = 20;
 bool connected = false;
 
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const char *inputTopic = "ESP8266/input";
-const char *outputTopic = "ESP8266/output";
+const char *tempTopic = "ESP8266/AC/Temp";
+const char *coldTopic = "ESP8266/AC/Cold";
+const char *heatTopic = "ESP8266/AC/Heat";
+const char *fanTopic = "ESP8266/AC/Fan";
+const char *swingTopic = "ESP8266/AC/Swing";
+const char *rgbTopic = "ESP8266/WiZ/RGB";
+const char *stateTopic = "ESP8266/WiZ/state";
+const char *cwTopic = "ESP8266/WiZ/CW";
+const char *dimTopic = "ESP8266/WiZ/Dim";
+
+const char *ldrTopic = "ESP8266/LDR";
+const char *dhtTempTopic = "ESP8266/Temp";
+const char *dhtHumTopic = "ESP8266/Hum";
+
 
 //  Timers
-int mqttCounter = 0;
-int irCounter = 0;
+unsigned long mqttCounter = 0;
+unsigned long irCounter = 0;
 long irUpdateTime = 100;
 long mqttUpdateTime = 1000;
 
 //  Data
 char buffer[50];
 int LDRValue;
+float DHTTemperature;
+float DHTHumidity;
 
 //  IR
 decode_results results;
@@ -73,6 +89,11 @@ char udpBuffer[100];
 WiFiUDP UDP;
 uint16_t UDPPORT = 38899;
 IPAddress wizIP(192,168,0,4);
+
+//  DHT
+#define DHTTYPE DHT11
+#define DHTPIN D4
+DHT dht(DHTPIN, DHTTYPE);
 
 #define IR_MAIN_H
 

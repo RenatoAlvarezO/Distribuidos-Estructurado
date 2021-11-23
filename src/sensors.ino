@@ -5,7 +5,8 @@ void readLDR() {
 }
 
 void readIR() {
-    if (irCounter > irUpdateTime) {
+    unsigned long irNow = millis();
+    if (irNow - irCounter > irUpdateTime) {
         if (IrReceiver.decode()) {
             Serial.print("Codigo recibido por IR = 0x");
             Serial.print(IrReceiver.decodedIRData.command, HEX);
@@ -13,17 +14,27 @@ void readIR() {
             Serial.println();
             IrReceiver.resume();
         }
-        irCounter = 0;
+        irCounter = irNow;
     }
 }
 
 void sendData() {
 
-    if (mqttCounter > mqttUpdateTime) {
+    unsigned long mqqtNow = millis();
+    if (mqqtNow - mqttCounter > mqttUpdateTime) {
         readLDR();
         snprintf(buffer, sizeof(buffer), "%d", LDRValue);
-        //client.publish(outputTopic, buffer);
-        mqttCounter = 0;
+        client.publish(ldrTopic, buffer);
+
+        DHTTemperature = dht.readTemperature();
+        snprintf(buffer, sizeof(buffer), "%2.1f", DHTTemperature);
+        client.publish(dhtTempTopic, buffer);
+
+        DHTHumidity = dht.readHumidity();
+        snprintf(buffer, sizeof(buffer), "%2.1f", DHTHumidity);
+        client.publish(dhtHumTopic, buffer);
+
+        mqttCounter = mqqtNow;
     }
 }
 
@@ -36,14 +47,14 @@ void setACTemp(unsigned long temperature, int mode) {
     unsigned char low = {0x10};
     unsigned int adresses[] = {0x24C0, 0xA1C0, 0xA4C0};
 
-    temp = temp < 16 ? 0 : temp > 30 ? 15 : temp - 16;
-    unsigned int code = (high[mode] - temp << 8) | low + temp;
+    temperature = temperature < 16 ? 0 : temperature > 30 ? 15 : temperature - 16;
+    unsigned int code = (high[mode] - temperature << 8) | low + temperature;
     code &= 0x0000FFFF;
     IrSender.sendOnkyo(adresses[mode], code, 3);
 }
 
 void setACSwing() {
-    IrSender.sendOnkyo(0xD0, 0x2F, 3)
+    IrSender.sendOnkyo(0xD0, 0x2F, 3);
 }
 
 void setACFanSpeed(int mode) {
@@ -53,6 +64,5 @@ void setACFanSpeed(int mode) {
     unsigned int command = ((0xF11A) + (mode << 12)) & 0x0000FFFF;
     IrSender.sendOnkyo(address, command, 3);
 }
-
 
 

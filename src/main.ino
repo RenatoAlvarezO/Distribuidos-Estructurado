@@ -3,6 +3,7 @@
 void IRAM_ATTR TimerHandler() {
     mqttCounter++;
     irCounter++;
+    Serial.println(mqttServer);
 }
 
 void setup() {
@@ -13,16 +14,19 @@ void setup() {
     client.setServer(mqttServer, 1883);
     client.setCallback(callback);
 
-    interruptTimer.attachInterruptInterval(1000, TimerHandler);
+    dht.begin();
 
     IrSender.begin(D5, false);
     IrSender.enableIROut(38);
     IrReceiver.begin(D2, false);
+
 }
 
 void loop() {
 
-    checkWiFiConnection();
+    if (WiFi.status() != WL_CONNECTED)
+        setupWiFi();
+
     mqttControl();
     readIR();
     sendData();
