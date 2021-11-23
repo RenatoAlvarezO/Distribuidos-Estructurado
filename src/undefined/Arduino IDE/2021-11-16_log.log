@@ -1,0 +1,219 @@
+2021-11-16 01:23:28 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2021-11-16 01:23:28 root WARN please install @theia/electron@1.12.0-next.1a1d7afc as a runtime dependency
+2021-11-16 01:23:28 root INFO Configuration directory URI: 'file:///home/renato/.theia'
+2021-11-16 01:23:28 root INFO Theia app listening on http://localhost:36331.
+2021-11-16 01:23:28 root WARN The local plugin referenced by local-dir:/home/renato/.arduinoProIDE/plugins does not exist.
+2021-11-16 01:23:28 root WARN The local plugin referenced by local-dir:/home/renato/.arduinoIDE/extensions does not exist.
+2021-11-16 01:23:28 root WARN The local plugin referenced by local-dir:/home/renato/.arduinoIDE/plugins does not exist.
+2021-11-16 01:23:28 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-16 01:23:28 root INFO Resolved "cortex-debug" to a VS Code extension "cortex-debug@0.3.10" with engines:
+2021-11-16 01:23:28 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-16 01:23:28 root INFO Resolved "vscode-arduino-tools" to a VS Code extension "vscode-arduino-tools@0.0.1-beta.1" with engines:
+2021-11-16 01:23:28 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-16 01:23:28 root INFO Resolved "vscode-builtin-cpp" to a VS Code extension "cpp@1.52.1" with engines:
+2021-11-16 01:23:28 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-16 01:23:28 root INFO Resolved "vscode-builtin-json" to a VS Code extension "json@1.46.1" with engines:
+2021-11-16 01:23:28 root INFO PluginTheiaDirectoryHandler: accepting plugin with path
+2021-11-16 01:23:28 root INFO Resolved "vscode-builtin-json-language-features" to a VS Code extension "json-language-features@1.46.1" with engines:
+2021-11-16 01:23:28 root INFO Deploying backend plugin "cortex-debug@0.3.10" from "/home/renato/Arduino-IDE-2.0/resources/app/plugins/cortex-debug/extension/dist/extension"
+2021-11-16 01:23:28 root INFO Deploying backend plugin "vscode-arduino-tools@0.0.1-beta.1" from "/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle"
+2021-11-16 01:23:28 root INFO Deploying backend plugin "cpp@1.52.1" from "/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-builtin-cpp/extension"
+2021-11-16 01:23:29 root INFO Deploying backend plugin "json@1.46.1" from "/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-builtin-json/extension"
+2021-11-16 01:23:29 root INFO Deploying backend plugin "json-language-features@1.46.1" from "/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain"
+2021-11-16 01:23:29 root INFO Deploy plugins list took: 497.0 ms
+2021-11-16 01:23:29 root WARN Backend ConfigServiceImpl.onStart is slow, took: 763.4 ms
+2021-11-16 01:23:29 daemon INFO Starting daemon from /home/renato/Arduino-IDE-2.0/resources/app/node_modules/arduino-ide-extension/build/arduino-cli...
+2021-11-16 01:23:29 daemon INFO Using config file: /home/renato/.arduinoIDE/arduino-cli.yaml
+2021-11-16 01:23:29 daemon INFO arduino-cli version 0.18.1
+2021-11-16 01:23:29 daemon INFO Setting up Prometheus metrics on :9090/metrics
+2021-11-16 01:23:29 daemon INFO Starting daemon on TCP address 127.0.0.1:50051
+2021-11-16 01:23:29 daemon INFO Daemon is now listening on 127.0.0.1:50051...
+2021-11-16 01:23:29 daemon INFO Daemon is running.
+2021-11-16 01:23:34 root INFO Git askpass helper is listening on http://127.0.0.1:36655.
+2021-11-16 01:23:34 root INFO Using Git [2.33.0] from the PATH. (/usr/bin/git)
+2021-11-16 01:23:34 daemon INFO Checking signature [index: /home/renato/.arduino15/package_index.json, signaturefile: /home/renato/.arduino15/package_index.json.sig, trusted: true]
+2021-11-16 01:23:34 daemon INFO Checking if CLI is Bundled into the IDE
+2021-11-16 01:23:34 daemon INFO Loading hardware from: /home/renato/.arduino15/packages
+2021-11-16 01:23:34 daemon INFO Loading package ATTinyCore from: /home/renato/.arduino15/packages/ATTinyCore/hardware
+2021-11-16 01:23:35 daemon INFO Loaded platform [platform: {ID:"ATTinyCore:avr",Installed:"1.5.2",Latest:"1.5.2",Name:"ATTinyCore"}]
+2021-11-16 01:23:35 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:35 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:35 daemon INFO Loaded tool [tool: Version: 2.5-azd1b]
+2021-11-16 01:23:35 daemon INFO Loading package arduino from: /home/renato/.arduino15/packages/arduino/hardware
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/body-parser
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/cookie
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/express
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/fs-extra
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/lodash.debounce
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/lodash.throttle
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/react
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/react-dom
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/react-virtualized
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/route-parser
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/safer-buffer
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/ws
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/yargs
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/monaco
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/editor
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/rimraf
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/tar-fs
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/uuid
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/navigator
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/p-queue
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/preferences
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/electron
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/keymaps
+2021-11-16 01:23:36 root WARN Failed to resolve module: @theia/messages
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/diff
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/dompurify
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/mime
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/request
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/dateformat
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/deepmerge
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/glob
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/google-protobuf
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/js-yaml
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/ncp
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/ps-tree
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/react-select
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/react-tabs
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/sinon
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/temp
+2021-11-16 01:23:36 root WARN Failed to resolve module: @types/which
+2021-11-16 01:23:36 root WARN Failed to resolve module: js-yaml
+2021-11-16 01:23:36 root WARN Failed to resolve module: temp
+2021-11-16 01:23:36 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-11-16 01:23:36 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:36 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino18 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:36 daemon INFO Loading package builtin from: /home/renato/.arduino15/packages/builtin
+2021-11-16 01:23:36 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:36 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-11-16 01:23:36 daemon INFO Loading package esp8266 from: /home/renato/.arduino15/packages/esp8266/hardware
+2021-11-16 01:23:36 daemon INFO Loaded platform [platform: {ID:"esp8266:esp8266",Installed:"3.0.2",Latest:"3.0.2",Name:"ESP8266 Boards (3.0.2)"}]
+2021-11-16 01:23:36 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:36 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 3.7.2-post1]
+2021-11-16 01:23:36 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:36 daemon INFO Adding libraries dir [dir: /home/renato/Arduino/libraries, location: user]
+2021-11-16 01:23:36 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/libraries, location: platform]
+2021-11-16 01:23:36 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries, location: platform]
+2021-11-16 01:23:36 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-11-16 01:23:36 root WARN Frontend keybindings.onStart is slow, took: 440.9 ms
+2021-11-16 01:23:37 daemon INFO URL: https://downloads.arduino.cc/packages/package_index.json
+2021-11-16 01:23:37 daemon INFO Updating index [url: https://downloads.arduino.cc/packages/package_index.json]
+2021-11-16 01:23:38 root INFO Updating index: package_index.json completed.
+2021-11-16 01:23:38 root INFO Updating index: package_index.json.sig completed.
+2021-11-16 01:23:38 daemon INFO Checking signature [error: opening signature file: open /tmp/003624415.sig: no such file or directory, index: /tmp/003624415, signaturefile: /tmp/003624415.sig]
+2021-11-16 01:23:39 daemon INFO Checking signature [index: /home/renato/.arduino15/package_index.json, signaturefile: /home/renato/.arduino15/package_index.json.sig, trusted: true]
+2021-11-16 01:23:39 daemon INFO Loading hardware from: /home/renato/.arduino15/packages
+2021-11-16 01:23:39 daemon INFO Loading package ATTinyCore from: /home/renato/.arduino15/packages/ATTinyCore/hardware
+2021-11-16 01:23:39 daemon INFO Loaded platform [platform: {ID:"ATTinyCore:avr",Installed:"1.5.2",Latest:"1.5.2",Name:"ATTinyCore"}]
+2021-11-16 01:23:39 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:39 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 2.5-azd1b]
+2021-11-16 01:23:39 daemon INFO Loading package arduino from: /home/renato/.arduino15/packages/arduino/hardware
+2021-11-16 01:23:39 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-11-16 01:23:39 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:39 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino18 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:39 daemon INFO Loading package builtin from: /home/renato/.arduino15/packages/builtin
+2021-11-16 01:23:39 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:39 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-11-16 01:23:39 daemon INFO Loading package esp8266 from: /home/renato/.arduino15/packages/esp8266/hardware
+2021-11-16 01:23:39 daemon INFO Loaded platform [platform: {ID:"esp8266:esp8266",Installed:"3.0.2",Latest:"3.0.2",Name:"ESP8266 Boards (3.0.2)"}]
+2021-11-16 01:23:39 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:39 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 3.7.2-post1]
+2021-11-16 01:23:39 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:39 daemon INFO Adding libraries dir [dir: /home/renato/Arduino/libraries, location: user]
+2021-11-16 01:23:39 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/libraries, location: platform]
+2021-11-16 01:23:39 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-11-16 01:23:39 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries, location: platform]
+2021-11-16 01:23:39 daemon INFO Updating libraries index
+2021-11-16 01:23:41 root INFO Updating index: library_index.json completed.
+2021-11-16 01:23:41 daemon INFO Checking signature [index: /home/renato/.arduino15/package_index.json, signaturefile: /home/renato/.arduino15/package_index.json.sig, trusted: true]
+2021-11-16 01:23:41 daemon INFO Loading hardware from: /home/renato/.arduino15/packages
+2021-11-16 01:23:41 daemon INFO Loading package ATTinyCore from: /home/renato/.arduino15/packages/ATTinyCore/hardware
+2021-11-16 01:23:41 daemon INFO Loaded platform [platform: {ID:"ATTinyCore:avr",Installed:"1.5.2",Latest:"1.5.2",Name:"ATTinyCore"}]
+2021-11-16 01:23:41 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:41 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/ATTinyCore/tools
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 2.5-azd1b]
+2021-11-16 01:23:41 daemon INFO Loading package arduino from: /home/renato/.arduino15/packages/arduino/hardware
+2021-11-16 01:23:41 daemon INFO Loaded platform [platform: {ID:"arduino:avr",Installed:"1.8.3",Latest:"1.8.3",Name:"Arduino AVR Boards"}]
+2021-11-16 01:23:41 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:41 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/arduino/tools
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 1.3.0 Systems: [OS: i686-linux-gnu, OS: x86_64-linux-gnu, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: i386-apple-darwin11, OS: i686-mingw32]]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 7.3.0-atmel3.6.1-arduino7 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin14, OS: i686-mingw32, OS: i686-linux-gnu, OS: x86_64-linux-gnu]]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino17 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 6.3.0-arduino18 Systems: [OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu, OS: x86_64-apple-darwin12, OS: x86_64-linux-gnu, OS: i686-mingw32]]
+2021-11-16 01:23:41 daemon INFO Loading package builtin from: /home/renato/.arduino15/packages/builtin
+2021-11-16 01:23:41 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:41 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/builtin/tools
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 5.8-arduino11 Systems: [OS: i686-pc-linux-gnu, OS: x86_64-pc-linux-gnu, OS: i686-mingw32, OS: x86_64-apple-darwin, OS: arm-linux-gnueabihf, OS: aarch64-linux-gnu]]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 1.2.1]
+2021-11-16 01:23:41 daemon INFO Loading package esp8266 from: /home/renato/.arduino15/packages/esp8266/hardware
+2021-11-16 01:23:41 daemon INFO Loaded platform [platform: {ID:"esp8266:esp8266",Installed:"3.0.2",Latest:"3.0.2",Name:"ESP8266 Boards (3.0.2)"}]
+2021-11-16 01:23:41 daemon INFO Checking existence of 'tools' path: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:41 daemon INFO Loading tools from dir: /home/renato/.arduino15/packages/esp8266/tools
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 3.7.2-post1]
+2021-11-16 01:23:41 daemon INFO Loaded tool [tool: Version: 3.0.4-gcc10.3-1757bed]
+2021-11-16 01:23:41 daemon INFO Adding libraries dir [dir: /home/renato/Arduino/libraries, location: user]
+2021-11-16 01:23:41 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/ATTinyCore/hardware/avr/1.5.2/libraries, location: platform]
+2021-11-16 01:23:41 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/arduino/hardware/avr/1.8.3/libraries, location: platform]
+2021-11-16 01:23:41 daemon INFO Adding libraries dir [dir: /home/renato/.arduino15/packages/esp8266/hardware/esp8266/3.0.2/libraries, location: platform]
+2021-11-16 01:23:42 root WARN Frontend EditorNavigationContribution.onStart is slow, took: 7592.1 ms
+2021-11-16 01:23:42 root INFO Board config changed: 
+2021-11-16 01:23:42 root INFO Board config changed: 
+2021-11-16 01:23:42 root INFO Changed application state from 'init' to 'started_contributions'.
+2021-11-16 01:23:42 root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2021-11-16 01:23:42 root INFO >>> Restoring the layout state...
+2021-11-16 01:23:43 root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+2021-11-16 01:23:43 root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.33.0'.
+2021-11-16 01:23:43 root INFO [f1b4b552-89a5-4928-863d-aa790435326c] Sync of 5 plugins took: 522.9 ms
+2021-11-16 01:23:44 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344) starting instance
+2021-11-16 01:23:44 root INFO <<< The layout has been successfully restored.
+2021-11-16 01:23:44 root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][marus25.cortex-debug]: Loaded contributions.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][arduino.vscode-arduino-tools]: Loaded contributions.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.cpp]: Loaded contributions.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.json]: Loaded contributions.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.json-language-features]: Loaded contributions.
+2021-11-16 01:23:44 root INFO [f1b4b552-89a5-4928-863d-aa790435326c] Load contributions of 5 plugins took: 63.3 ms
+2021-11-16 01:23:44 root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2021-11-16 01:23:44 root WARN a registered grammar configuration for 'cpp' language is overridden
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): PluginManagerExtImpl/init()
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): initializing(cortex-debug@0.3.10 with /home/renato/Arduino-IDE-2.0/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] Debugger contribution has been registered: cortex-debug
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): initializing(vscode-arduino-tools@0.0.1-beta.1 with /home/renato/Arduino-IDE-2.0/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): initializing(cpp@1.52.1 with /home/renato/Arduino-IDE-2.0/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): initializing(json@1.46.1 with /home/renato/Arduino-IDE-2.0/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): initializing(json-language-features@1.46.1 with /home/renato/Arduino-IDE-2.0/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init.js)
+2021-11-16 01:23:45 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): PluginManagerExtImpl/loadPlugin(/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2021-11-16 01:23:46 root INFO Changed application state from 'initialized_layout' to 'ready'.
+2021-11-16 01:23:46 root INFO [hosted-plugin: 7344] PLUGIN_HOST(7344): PluginManagerExtImpl/loadPlugin(/home/renato/Arduino-IDE-2.0/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][marus25.cortex-debug]: Started plugin.
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][arduino.vscode-arduino-tools]: Started plugin.
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.cpp]: Started plugin.
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.json]: Started plugin.
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c][vscode.json-language-features]: Started plugin.
+2021-11-16 01:23:46 root INFO [f1b4b552-89a5-4928-863d-aa790435326c] Start of 5 plugins took: 1394.6 ms
+2021-11-16 01:23:46 root INFO Starting language server: esp8266:esp8266:nodemcuv2
+2021-11-16 01:26:48 monitor-service INFO >>> Disposing monitor service...
+2021-11-16 01:26:48 monitor-service INFO <<< Disposed monitor service.
